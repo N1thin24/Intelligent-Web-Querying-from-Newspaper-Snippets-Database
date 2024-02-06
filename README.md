@@ -21,3 +21,8 @@ After selecting your query type, you will then choose how the search results sho
 Cosine Similarity: Ranks results based on the cosine similarity between the query and document vectors, favoring documents that are directionally similar to the query in the multidimensional space.
 Summation of tf-idf scores w.r.t document: Utilizes the sum of term frequency-inverse document frequency (tf-idf) scores for each term in the document, emphasizing documents with high term relevance.
 Summation of (tf-idf w.r.t doc * tf-idf w.r.t query): Employs a combined measure that accounts for the tf-idf scores of terms in both the document and the query, prioritizing documents that are relevant to the specific terms of the query.
+
+A sample output generated for the keyword 'Airline'
+![Simple_Airline](https://github.com/N1thin24/Intelligent-Web-Querying-from-Newspaper-Snippets-Database/assets/107985125/bde15b4b-c901-4718-988d-7f7fd23a8cac)
+
+
